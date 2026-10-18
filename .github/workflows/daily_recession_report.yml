@@ -2,7 +2,7 @@ name: Weekly Recession Probability Report
 
 on:
   schedule:
-    # Run Monday at 9:00 AM ET (14:00 UTC)
+    # Viernes 7:00 AM hora de Colombia (12:00 UTC)
     # Most FRED series update monthly; weekly captures new releases
     # without burning API credits on unchanged data
     - cron: "0 12 * * 5"
