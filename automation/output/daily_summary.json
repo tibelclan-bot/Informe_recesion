@@ -1,25 +1,25 @@
 {
-  "run_date": "2026-10-23",
-  "data_through": "2026-08",
+  "run_date": "2026-10-30",
+  "data_through": "2026-09",
   "lagged_series": [
-    "SPREAD (last: 2026-08)",
-    "HSN1F_YOY (last: 2026-08)",
-    "FEDFUNDS (last: 2026-08)",
-    "CPILFESL_YOY (last: 2026-08)",
-    "PPIACO_YOY (last: 2026-08)",
-    "HOUST_YOY (last: 2026-08)"
+    "SPREAD (last: 2026-09)",
+    "HSN1F_YOY (last: 2026-09)",
+    "FEDFUNDS (last: 2026-09)",
+    "CPILFESL_YOY (last: 2026-09)",
+    "PPIACO_YOY (last: 2026-09)",
+    "HOUST_YOY (last: 2026-09)"
   ],
-  "ensemble_probability": 9.41,
-  "bic_probability": 15.72,
-  "ci_lower": 9.18,
-  "ci_upper": 21.12,
+  "ensemble_probability": 9.15,
+  "bic_probability": 17.98,
+  "ci_lower": 10.93,
+  "ci_upper": 24.57,
   "signal": "LOW",
   "consensus": "MODERATE",
   "model_probabilities": {
-    "NY Fed (Spread Only)": 13.04,
-    "Wright (Spread + FF)": 8.21,
-    "BIC-Selected": 15.72,
-    "Estrella-Mishkin": 9.47,
+    "NY Fed (Spread Only)": 11.42,
+    "Wright (Spread + FF)": 7.33,
+    "BIC-Selected": 17.98,
+    "Estrella-Mishkin": 8.4,
     "Chauvet-Piger": 0.62
   },
   "bic_selected_features": [
@@ -32,58 +32,58 @@
   ],
   "indicator_readings": {
     "SPREAD": {
-      "value": 0.71,
+      "value": 0.87,
       "category": "Rendimientos (derivada)",
-      "percentile": 28.0
+      "percentile": 31.0
     },
     "HSN1F_YOY": {
-      "value": -8.5592,
+      "value": -0.1543,
       "category": "Vivienda",
-      "percentile": 27.0
+      "percentile": 44.0
     },
     "FEDFUNDS": {
-      "value": 3.64,
+      "value": 3.63,
       "category": "Rendimientos",
       "percentile": 43.0
     },
     "CPILFESL_YOY": {
-      "value": 2.7433,
+      "value": 2.4665,
       "category": "Inflaci\u00f3n",
-      "percentile": 52.0
+      "percentile": 43.0
     },
     "PPIACO_YOY": {
-      "value": 9.4159,
+      "value": 8.6199,
       "category": "Inflaci\u00f3n",
-      "percentile": 88.0
+      "percentile": 86.0
     },
     "HOUST_YOY": {
-      "value": 1.0,
+      "value": -4.3994,
       "category": "Vivienda",
-      "percentile": 49.0
+      "percentile": 35.0
     }
   },
   "sensitivity": [
     {
       "feature": "SPREAD",
       "category": "Rendimientos (derivada)",
-      "current_value": 0.7100000000000004,
-      "std_dev": 1.3126417675754602,
-      "prob_minus_1sd": 28.97457415465422,
-      "prob_plus_1sd": 7.2414580436533065,
-      "impact_pp": -21.733116111000914,
-      "trigger_30pct": -0.69,
-      "distance_30pct": -1.4,
-      "trigger_50pct": -2.21,
-      "distance_50pct": -2.92
+      "current_value": 0.8699999999999997,
+      "std_dev": 1.31270847384342,
+      "prob_minus_1sd": 32.08173807741138,
+      "prob_plus_1sd": 8.587062612370866,
+      "impact_pp": -23.494675465040515,
+      "trigger_30pct": -0.27,
+      "distance_30pct": -1.14,
+      "trigger_50pct": -1.8,
+      "distance_50pct": -2.67
     },
     {
       "feature": "HSN1F_YOY",
       "category": "Vivienda",
-      "current_value": -8.559201141226824,
-      "std_dev": 19.412993193889427,
-      "prob_minus_1sd": 16.063204638034517,
-      "prob_plus_1sd": 15.379182046432193,
-      "impact_pp": -0.6840225916023233,
+      "current_value": -0.15432098765432167,
+      "std_dev": 19.396338885291975,
+      "prob_minus_1sd": 18.361926638017007,
+      "prob_plus_1sd": 17.60855138747701,
+      "impact_pp": -0.753375250539996,
       "trigger_30pct": null,
       "distance_30pct": null,
       "trigger_50pct": null,
@@ -92,84 +92,84 @@
     {
       "feature": "FEDFUNDS",
       "category": "Rendimientos",
-      "current_value": 3.64,
-      "std_dev": 3.9831099301271338,
-      "prob_minus_1sd": 2.258672876517862,
-      "prob_plus_1sd": 49.635640692113626,
-      "impact_pp": 47.37696781559576,
-      "trigger_30pct": 5.56,
-      "distance_30pct": 1.92,
-      "trigger_50pct": 7.66,
-      "distance_50pct": 4.02
+      "current_value": 3.63,
+      "std_dev": 3.9797023972345182,
+      "prob_minus_1sd": 2.7763453621087457,
+      "prob_plus_1sd": 53.29493008926073,
+      "impact_pp": 50.51858472715199,
+      "trigger_30pct": 5.19,
+      "distance_30pct": 1.56,
+      "trigger_50pct": 7.28,
+      "distance_50pct": 3.65
     },
     {
       "feature": "CPILFESL_YOY",
       "category": "Inflaci\u00f3n",
-      "current_value": 2.7433094309685213,
-      "std_dev": 2.4379259559349213,
-      "prob_minus_1sd": 42.38707365595894,
-      "prob_plus_1sd": 3.436671095085539,
-      "impact_pp": -38.95040256087341,
+      "current_value": 2.4665177892309265,
+      "std_dev": 2.4359477156837293,
+      "prob_minus_1sd": 45.96764232048861,
+      "prob_plus_1sd": 4.174411466519755,
+      "impact_pp": -41.79323085396885,
       "trigger_30pct": 1.3,
-      "distance_30pct": -1.44,
+      "distance_30pct": -1.17,
       "trigger_50pct": -0.27,
-      "distance_50pct": -3.01
+      "distance_50pct": -2.74
     },
     {
       "feature": "PPIACO_YOY",
       "category": "Inflaci\u00f3n",
-      "current_value": 9.415926189665313,
-      "std_dev": 5.80715849334264,
-      "prob_minus_1sd": 4.274251475157852,
-      "prob_plus_1sd": 38.49681632429912,
-      "impact_pp": 34.222564849141264,
-      "trigger_30pct": 13.34,
-      "distance_30pct": 3.92,
-      "trigger_50pct": 17.6,
-      "distance_50pct": 8.19
+      "current_value": 8.619901051235335,
+      "std_dev": 5.802184112653173,
+      "prob_minus_1sd": 5.150896303299681,
+      "prob_plus_1sd": 42.00955734416785,
+      "impact_pp": 36.85866104086817,
+      "trigger_30pct": 11.8,
+      "distance_30pct": 3.18,
+      "trigger_50pct": 16.06,
+      "distance_50pct": 7.44
     },
     {
       "feature": "HOUST_YOY",
       "category": "Vivienda",
-      "current_value": 1.0000000000000009,
-      "std_dev": 20.31076480263353,
-      "prob_minus_1sd": 34.48518347070466,
-      "prob_plus_1sd": 5.338184522900146,
-      "impact_pp": -29.146998947804516,
-      "trigger_30pct": -15.12,
-      "distance_30pct": -16.12,
-      "trigger_50pct": -32.67,
-      "distance_50pct": -33.67
+      "current_value": -4.399441340782118,
+      "std_dev": 20.29399485522475,
+      "prob_minus_1sd": 37.86651679804772,
+      "prob_plus_1sd": 6.387233422275789,
+      "impact_pp": -31.47928337577193,
+      "trigger_30pct": -17.49,
+      "distance_30pct": -13.09,
+      "trigger_50pct": -35.02,
+      "distance_50pct": -30.62
     }
   ],
-  "adverse_scenario_probability": 99.52,
+  "adverse_scenario_probability": 99.64,
   "sign_warnings": [],
   "trend_attribution": {
-    "prob_24m_ago": 2.78,
-    "prob_current": 15.72,
-    "prob_change_pp": 12.94,
+    "prob_24m_ago": 5.33,
+    "prob_current": 17.98,
+    "prob_change_pp": 12.65,
     "partial_effects": {
-      "SPREAD": -9.1766,
-      "HSN1F_YOY": 0.1373,
-      "FEDFUNDS": -6.0288,
-      "CPILFESL_YOY": 5.3068,
-      "PPIACO_YOY": 22.4958,
-      "HOUST_YOY": 0.2013
+      "SPREAD": -9.7735,
+      "HSN1F_YOY": 0.1044,
+      "FEDFUNDS": -7.7368,
+      "CPILFESL_YOY": 7.0334,
+      "PPIACO_YOY": 19.1859,
+      "HOUST_YOY": 3.8406
     },
     "top_improvement": {
       "feature": "SPREAD",
-      "effect_pp": -9.1766
+      "effect_pp": -9.7735
     },
     "top_risk": {
       "feature": "PPIACO_YOY",
-      "effect_pp": 22.4958
+      "effect_pp": 19.1859
     }
   },
   "model_metadata": {
-    "training_observations": 578,
+    "training_observations": 579,
     "training_start": "1976-08",
-    "training_end": "2025-08",
-    "pseudo_r2": 0.4201,
+    "training_end": "2025-09",
+    "pseudo_r2": 0.4199,
     "target_definition": "point"
   },
   "charts": [
